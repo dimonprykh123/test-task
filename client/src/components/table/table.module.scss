@@ -1,0 +1,50 @@
+@import "../../styles/_variables.scss";
+
+@media (max-width: 1200px) {
+  .tableWrapper {
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+}
+
+tbody {
+  tr:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 2px #7E7E7E;
+  }
+}
+
+tr:nth-child(odd) {
+  background-color: #F1F1F1;
+}
+
+tr:nth-child(even) {
+  background-color: #FBFBFB;
+}
+
+th {
+  font-size: $medium-text-size;
+  color: $main-text-color;
+  font-weight: normal;
+  background-color: #3A80BA;
+  padding: 12px 24px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 0px 1px;
+}
+
+th:last-child {
+  border-radius: 0px 20px 0px 0px;
+}
+
+th:first-child {
+  border-radius: 20px 0px 0px 0px;
+}
+
+td {
+  text-align: center;
+  height: 32px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 0px 1px;
+}

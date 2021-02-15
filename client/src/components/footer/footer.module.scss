@@ -1,0 +1,11 @@
+@import "../../styles/_variables.scss";
+.footer {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $main-text-color;
+  p{
+    margin-top: auto;
+  }
+}
